@@ -1,4 +1,4 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -60,12 +60,11 @@
         }
         
         .logo {
-           font-size: 32px;
-           font-weight: bold;
-           color: var(--primary-blue);
-           text-decoration: none;
-           letter-spacing: 1px;
- }
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
         
         .nav-links {
             display: flex;
@@ -91,13 +90,12 @@
         }
         
         .hero h1 {
-    font-size: 72px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: var(--primary-blue);
-    animation: fadeInUp 0.8s ease;
-    letter-spacing: 2px;
-}
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+            animation: fadeInUp 0.8s ease;
+        }
         
         .hero .subtitle {
             font-size: 24px;
@@ -626,13 +624,10 @@
         </nav>
     </header>
 
-   <!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <!-- Premier App Image -->
-        <img src="simple-nav.jpg" alt="SMPLTSK App Interface" style="max-width: 300px; height: auto; margin-bottom: 40px; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); display: block; margin-left: auto; margin-right: auto;">
-        
-        <h1>SMPLTSK</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Simple Task Control.  See it. Mark it. Do it.</h1>
             <p class="subtitle">Visual task management that works the way your brain does.</p>
             <p>Take a photo. Drop markers where tasks need doing. Track progress visually. No more forgetting what needs to be done or where.</p>
             <div class="cta-buttons">
@@ -652,14 +647,12 @@
             <div class="screenshots-gallery">
                 <!-- Main Hero Screenshot -->
                 <div class="screenshot-main">
-                    <img src="home-screen.jpg" alt="SMPLTSK Home Screen - ">
-                    >
+                    <img src="task-markers.jpg" alt="SMPLTSK Visual Task Marking - Mark tasks directly on photos">
                 </div>
                 
                 <!-- Grid of Other Screenshots -->
                 <div class="screenshots-grid">
-                    <img src="task-markers.jpg" alt="SMPLTSK Visual Task Marking - Mark tasks directly on photos">
-                    
+                    <img src="home-screen.jpg" alt="SMPLTSK Home Screen - Simple Task Control">
                     <img src="task-list.jpg" alt="Task List View - Numbered tasks with clear priorities">
                     <img src="files-screen.jpg" alt="Files Organization - Group tasks by project or location">
                     <img src="task-detail.jpg" alt="Task Detail View - Track progress visually">
@@ -707,7 +700,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Features -->
     <section class="features" id="features">
@@ -868,6 +860,15 @@
                 observer.observe(el);
             });
         });
-    </script>
+    </script><footer style="background: var(--light-gray); padding: 40px 20px; text-align: center; margin-top: 80px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <p style="color: var(--medium-gray); margin-bottom: 20px;">© 2025 SMPLTSK. All rights reserved.</p>
+        <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <a href="privacy-policy.html" style="color: var(--primary-blue); text-decoration: none;">Privacy Policy</a>
+            <a href="terms-of-service.html" style="color: var(--primary-blue); text-decoration: none;">Terms of Service</a>
+            <a href="mailto:steve@smpltsk.com" style="color: var(--primary-blue); text-decoration: none;">Contact</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
